@@ -4,7 +4,7 @@ var faker = require('faker');  // email faker com variavel usando biblioteca do 
 describe('Funcionalidade Pré cadastro', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('minha-conta')
         
     });
 
